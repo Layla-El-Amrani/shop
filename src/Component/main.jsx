@@ -113,7 +113,7 @@ export default function Main({ setCartItem, setCount }) {
   };
 
   const products = [
-    { id: 1, name: "Montre Classique", price: "$150.00", img: "/image/4.jpg" },
+    { id: 1, name: "Montre Classique", price: "$150.00", img: "public/image/4.jpg" },
     { id: 2, name: "Montre Sportive", price: "$200.00", img: "/image/1.avif" },
     { id: 3, name: "Montre de Luxe", price: "$800.00", img: "/image/5.jpg" },
     { id: 4, name: "Montre Étanche", price: "$120.00", img: "/image/2.avif" },
