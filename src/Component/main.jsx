@@ -92,7 +92,7 @@ const Styledbutton = styled.button`
 
 export default function Main({ setCartItem, setCount }) {
   const images = [
-    "%PUBLIC_URL%/image/bg1.jpg",
+    "/image/bg1.jpg",
     "/image/bg2.jpg",
     "/image/bg3.jpg"
   ];
