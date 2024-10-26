@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/ton_depot/static/css/main.3572f698.css",
-    "main.js": "/ton_depot/static/js/main.f5147918.js",
-    "index.html": "/ton_depot/index.html",
-    "main.3572f698.css.map": "/ton_depot/static/css/main.3572f698.css.map",
-    "main.f5147918.js.map": "/ton_depot/static/js/main.f5147918.js.map"
+    "main.css": "/shop/static/css/main.3572f698.css",
+    "main.js": "/shop/static/js/main.42a7b1ab.js",
+    "index.html": "/shop/index.html",
+    "main.3572f698.css.map": "/shop/static/css/main.3572f698.css.map",
+    "main.42a7b1ab.js.map": "/shop/static/js/main.42a7b1ab.js.map"
   },
   "entrypoints": [
     "static/css/main.3572f698.css",
-    "static/js/main.f5147918.js"
+    "static/js/main.42a7b1ab.js"
   ]
 }
