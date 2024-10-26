@@ -92,9 +92,9 @@ const Styledbutton = styled.button`
 
 export default function Main({ setCartItem, setCount }) {
   const images = [
-    "/image/bg1.jpg",
-    "/image/bg2.jpg",
-    "/image/bg3.jpg"
+    "shop/image/bg1.jpg",
+    "shop/image/bg2.jpg",
+    "shop/image/bg3.jpg"
   ];
   
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -113,7 +113,7 @@ export default function Main({ setCartItem, setCount }) {
   };
 
   const products = [
-    { id: 1, name: "Montre Classique", price: "$150.00", img: "/image/4.jpg" },
+    { id: 1, name: "Montre Classique", price: "$150.00", img: "shop/image/4.jpg" },
     { id: 2, name: "Montre Sportive", price: "$200.00", img: "/image/1.avif" },
     { id: 3, name: "Montre de Luxe", price: "$800.00", img: "/image/5.jpg" },
     { id: 4, name: "Montre Étanche", price: "$120.00", img: "/image/2.avif" },
