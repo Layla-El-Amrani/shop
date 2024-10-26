@@ -92,9 +92,9 @@ const Styledbutton = styled.button`
 
 export default function Main({ setCartItem, setCount }) {
   const images = [
-    "/image/bg1.jpg",
-    "/image/bg2.jpg",
-    "/image/bg3.jpg"
+    "public//image/bg1.jpg",
+    "public//image/bg2.jpg",
+    "public//image/bg3.jpg"
   ];
   
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
