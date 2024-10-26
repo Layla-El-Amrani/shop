@@ -91,7 +91,7 @@ const Styledbutton = styled.button`
 `;
 
 export default function Main({ setCartItem, setCount }) {
-  const images = ["/image/bg1.jpg", "/image/bg2.jpg", "/image/bg3.jpg"];
+  const images = [{`${process.env.PUBLIC_URL}//image/bg1.jpg`},{`${process.env.PUBLIC_URL}//image/bg1.jpg`}, {`${process.env.PUBLIC_URL}//image/bg1.jpg`}];
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
